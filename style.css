@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(wall.jpg) center;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    background: none;
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+}
+li{
+    margin: 0 1em;
+}
+li.logo{
+    margin-top: 10px;
+    margin-right: auto;
+}
+li.logo img{
+    border-radius: 10%;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+li a:hover{
+    background-color: darkcyan;
+}
+li.user a{
+    background: darkcyan;
+}
+.container{
+    margin-top: 3rem;
+    margin-right: 60rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    font-size: 20px;
+    background-color: rgba(119, 26, 26, 0.00);
+    box-shadow: 8px 8px 10px 0 rgba(53, 54, 59, 0.82),
+                 -8px -8px 22px 0 rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(2.0px);
+    -webkit-backdrop-filter: blur(2.0px);
+    border-radius: 1em;
+}
+.container:hover{
+    transform: skew(2deg);
+}
+.container h1#join{
+    position: relative;
+    bottom: 20px;
+}
+.container a{
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    background-color: #000;
+    color: darkcyan;
+}
+.pic{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+.qt{
+    margin: 0 500px 0 500px;
+    padding: 20px;
+    font-weight: bold;
+    position: relative;
+    left: 30%;
+    top: 10px;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 2px;
+    background-color: rgba(119, 26, 26, 0.00);
+    box-shadow: 8px 8px 10px 0 rgba(53, 54, 59, 0.82),
+                 -8px -8px 22px 0 rgba(255, 255, 255, 0.22);
+    -webkit-backdrop-filter: blur(2.0px);
+    border-radius: 1em;
+}
